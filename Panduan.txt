@@ -1,0 +1,91 @@
+# Peringkas Teks Bahasa Batak Toba
+
+Peringkas Teks adalah sebuah aplikasi untuk mengubah teks panjang menjadi ringkasan singkat namun informatif. Dengan memanfaatkan model BART (Bidirectional Auto-Regressive Transformers), aplikasi ini menjadi solusi efektif untuk meningkatkan efisiensi dalam pengolahan informasi, membantu pengguna menghemat waktu dan meningkatkan produktivitas.
+
+Panduan Instalasi Peringkas Teks Bahasa Batak
+
+- Download Project
+  Project ini dapat diunduh dengan dua cara:
+  * Cara 1: Clone dari GitHub
+  1. Buka terminal atau command prompt
+  2. Ketik perintah berikut:
+     git clone https://github.com/novitasarisamosir/Peringkas-Teks-Batak.git
+  * Cara 2: Download ZIP
+  1. Kunjungi halaman GitHub project ini
+  2. Klik tombol hijau "Code"
+  3. Pilih "Download ZIP"
+  4. Ekstrak file ZIP ke folder yang diinginkan
+
+- Download File-File Pendukung
+1. Virtual Environment (Download venv.zip)
+   * Link: https://terabox.com/s/1BssaJv0DiLqSIzMxG3OGoQ
+2. Model BART (Download fine_tuned_bart.zip)
+   * Link: https://terabox.com/s/1q7_bA6dcFcC64OI7IYxfeQ
+3. Dataset (Download data.zip)
+   * Link: https://terabox.com/s/1TVjm6cEqIMZzTVzXN3Nk8w
+4. kfold_data (Download folder kfold_data)
+   * Link: https://drive.google.com/drive/folders/1uchcFYcStT6BO3QTc037L4F04v1ARx28?usp=sharing
+5. results
+   * Download semua folder berikut:
+   1. fold 1: https://drive.google.com/drive/folders/1JeJy64AiOqFJvpIfntnbq9l8gYKiyWww?usp=drive_link
+   2. fold 2: https://drive.google.com/drive/folders/1oYAczPQIp7UD_BcwepZCB3pQqB2c1a11?usp=sharing
+   3. fold 3: https://drive.google.com/drive/folders/1sbY2N2GCA3WyKo5f5laZ4P2Q99Txj7tk?usp=sharing
+   4. fold 4: https://drive.google.com/drive/folders/1q7nONpyfXDA3Pgm6YicscbP6omY-b9h9?usp=sharing
+   5. fold 5: https://drive.google.com/drive/folders/1ebGfIOSz8ovO6Hfu9a7MXTEHTAIq5Mkr?usp=sharing
+
+- Menyusun File dan Folder
+1. Ekstrak File ZIP:
+   * Ekstrak venv.zip → menghasilkan folder venv
+   * Ekstrak fine_tuned_bart.zip → menghasilkan folder fine_tuned_bart
+   * Ekstrak data.zip → menghasilkan folder data
+2. Siapkan Folder results:
+   * Buat folder baru dengan nama results
+   * Masukkan semua folder fold ke dalam folder results:
+     1. fold 1
+     2. fold 2
+     3. fold 3
+     4. fold 4
+     5. fold 5
+3. Pindahkan Semua ke Project
+   Pindahkan folder-folder berikut ke dalam folder utama project:
+   * Folder venv
+   * Folder fine_tuned_bart
+   * Folder data
+   * Folder kfold_data
+   * Folder results (yang berisi 5 fold)
+4. Periksa Struktur Folder
+   * Struktur folder yang benar seperti ini:
+   https://drive.google.com/file/d/1uuCyGrzmDz__jjFBXstxYIZLlBqqwCuC/view?usp=sharing
+5. Menjalankan Aplikasi
+   * Buka terminal/command prompt
+   * Masuk ke folder project: cd repository-name (sesuaikan dengan nama repository)
+     1. contoh: cd Peringkas-Teks-Batak
+6. Aktifkan virtual environment:
+   * Untuk Windows: venv\Scripts\activate
+   * Untuk Linux/MacOS: source venv/bin/activate
+7. Jalankan aplikasi
+   * Setelah venv aktif, jalankan aplikasi dengan perintah berikut: python app.py
+8. Aplikasi akan berjalan di localhost, biasanya di http://127.0.0.1:5000
+9. Buka browser, lalu akses URL tersebut untuk menggunakan aplikasi
+
+- Catatan Penting
+1. Download semua file terlebih dahulu sebelum mulai instalasi
+2. Pastikan folder results berisi lengkap 5 fold
+3. Virtual environment sudah berisi semua package yang diperlukan
+
+- Penanganan Masalah: Aplikasi Tidak Bisa Jalan?
+1. Periksa semua file sudah lengkap
+2. Pastikan struktur folder sudah benar
+3. Pastikan virtual environment aktif (ada tulisan (venv) di terminal)
+
+- Panduan Penggunaan Aplikasi
+  * Terdapat dua cara untuk mengakses panduan penggunaan aplikasi:
+    1. Melalui Manual Book Program
+       * Jika membutuhkan informasi lebih detail atau panduan tambahan, silakan akses Manual Book Program melalui tautan berikut:
+         * https://drive.google.com/file/d/1U7TP7yPLfucq50tyiHEbhOhoasxszzWa/view?usp=sharing
+    2. Melalui Halaman Bantuan Website
+       * Untuk mengakses panduan melalui website:
+         1. Buka aplikasi melalui browser Anda
+         2. Tunggu hingga tampilan aplikasi muncul sepenuhnya
+         3. Cari dan klik menu "Bantuan" yang tersedia di halaman website
+         4. Panduan penggunaan akan ditampilkan secara langsung di layar Anda
