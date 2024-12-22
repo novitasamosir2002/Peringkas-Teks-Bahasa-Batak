@@ -9,7 +9,7 @@ Panduan Instalasi Peringkas Teks Bahasa Batak
   * Cara 1: Clone dari GitHub
   1. Buka terminal atau command prompt
   2. Ketik perintah berikut:
-     git clone https://github.com/novitasarisamosir/Peringkas-Teks-Batak.git
+     git clone https://github.com/novitasamosir2002/Peringkas-Teks-Bahasa-Batak.git
   * Cara 2: Download ZIP
   1. Kunjungi halaman GitHub project ini
   2. Klik tombol hijau "Code"
